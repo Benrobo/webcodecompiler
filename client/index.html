@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Compiler</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://unpkg.com/codeflask/build/codeflask.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+  </head>
+  <body>
+    <div class="editor-container">
+      <div class="editor-nav">
+        <div class="title">
+          <span class="dot r"></span>
+          <span class="dot y"></span>
+          <span class="dot g"></span>
+        </div>
+        <button class="run-btn btn">Run Code</button>
+      </div>
+
+      <div class="main">
+        <div class="code-cont">
+          <div class="editor-code"></div>
+        </div>
+        <!-- code output -->
+        <div class="code-output-cont">
+          <div class="head">Results ></div>
+          <div class="output">
+              <span class="output-text"></span>
+          </div>
+        </div>
+        <!-- editor info menu -->
+        <div class="editor-menu">
+          <div class="head">Editor Options</div>
+          <br />
+          <input type="checkbox" class="check" />
+          <label>Take Input</label>
+          <br />
+          <div>
+            <input
+              type="text"
+              placeholder="Code Input"
+              class="java-code-input input"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="./main.js"></script>
+    <script></script>
+  </body>
+</html>
