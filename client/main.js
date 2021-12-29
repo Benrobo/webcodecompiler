@@ -152,6 +152,7 @@ public class Main {
       }
     } catch (e) {
       console.log(e);
+      runBtn.classList.remove("loading");
       output.classList.add("error");
       output.textContent = " Server Error: failed to compile code.";
       return this.util.error("Server Error: Error compiling code");
@@ -212,6 +213,7 @@ public class Main {
       }
     } catch (e) {
       console.log(e);
+      runBtn.classList.remove("loading");
       output.classList.add("error");
       output.textContent = " Server Error: failed to compile code.";
       return this.util.error("Server Error: Error compiling code");
